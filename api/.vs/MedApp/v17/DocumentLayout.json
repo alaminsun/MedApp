@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\MedApp\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\infrastructure\\persistence\\services\\demoseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\infrastructure\\persistence\\services\\demoseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\infrastructure\\persistence\\messaging\\mailkitemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\infrastructure\\persistence\\messaging\\mailkitemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\infrastructure\\persistence\\documents\\questpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\infrastructure\\persistence\\documents\\questpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\application\\appoinments\\messaging\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\application\\appoinments\\messaging\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\application\\appoinments\\dtos\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\application\\appoinments\\dtos\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\application\\appoinments\\dtos\\appointmentlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\application\\appoinments\\dtos\\appointmentlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\application\\appoinments\\dtos\\appointmentcreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\application\\appoinments\\dtos\\appointmentcreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\application\\appoinments\\documents\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\application\\appoinments\\documents\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\controllers\\lookupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\controllers\\lookupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|d:\\project\\medapp\\api\\medapp\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA68934-BB1B-4483-A371-9962DF8F5E8F}|MedApp\\MedApp.csproj|solutionrelative:medapp\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuestPdfService.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Infrastructure\\Persistence\\Documents\\QuestPdfService.cs",
+              "RelativeDocumentMoniker": "MedApp\\Infrastructure\\Persistence\\Documents\\QuestPdfService.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Infrastructure\\Persistence\\Documents\\QuestPdfService.cs",
+              "RelativeToolTip": "MedApp\\Infrastructure\\Persistence\\Documents\\QuestPdfService.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAFIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T19:09:47.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MailKitEmailService.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Infrastructure\\Persistence\\Messaging\\MailKitEmailService.cs",
+              "RelativeDocumentMoniker": "MedApp\\Infrastructure\\Persistence\\Messaging\\MailKitEmailService.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Infrastructure\\Persistence\\Messaging\\MailKitEmailService.cs",
+              "RelativeToolTip": "MedApp\\Infrastructure\\Persistence\\Messaging\\MailKitEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T04:28:17.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoSeeder.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Infrastructure\\Persistence\\Services\\DemoSeeder.cs",
+              "RelativeDocumentMoniker": "MedApp\\Infrastructure\\Persistence\\Services\\DemoSeeder.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Infrastructure\\Persistence\\Services\\DemoSeeder.cs",
+              "RelativeToolTip": "MedApp\\Infrastructure\\Persistence\\Services\\DemoSeeder.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:34:08.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MedApp\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "MedApp\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:28:40.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MedApp\\appsettings.json",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\appsettings.json",
+              "RelativeToolTip": "MedApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T04:36:09.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Program.cs",
+              "RelativeDocumentMoniker": "MedApp\\Program.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Program.cs",
+              "RelativeToolTip": "MedApp\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T19:14:29.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Messaging\\IEmailService.cs",
+              "RelativeDocumentMoniker": "MedApp\\Application\\Appoinments\\Messaging\\IEmailService.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Messaging\\IEmailService.cs",
+              "RelativeToolTip": "MedApp\\Application\\Appoinments\\Messaging\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T21:24:38.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrescriptionDto.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Dtos\\PrescriptionDto.cs",
+              "RelativeDocumentMoniker": "MedApp\\Application\\Appoinments\\Dtos\\PrescriptionDto.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Dtos\\PrescriptionDto.cs",
+              "RelativeToolTip": "MedApp\\Application\\Appoinments\\Dtos\\PrescriptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T21:24:23.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentListDto.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Dtos\\AppointmentListDto.cs",
+              "RelativeDocumentMoniker": "MedApp\\Application\\Appoinments\\Dtos\\AppointmentListDto.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Dtos\\AppointmentListDto.cs",
+              "RelativeToolTip": "MedApp\\Application\\Appoinments\\Dtos\\AppointmentListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T21:24:21.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentCreateUpdateDto.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Dtos\\AppointmentCreateUpdateDto.cs",
+              "RelativeDocumentMoniker": "MedApp\\Application\\Appoinments\\Dtos\\AppointmentCreateUpdateDto.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Dtos\\AppointmentCreateUpdateDto.cs",
+              "RelativeToolTip": "MedApp\\Application\\Appoinments\\Dtos\\AppointmentCreateUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T21:24:20.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPdfService.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Documents\\IPdfService.cs",
+              "RelativeDocumentMoniker": "MedApp\\Application\\Appoinments\\Documents\\IPdfService.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Application\\Appoinments\\Documents\\IPdfService.cs",
+              "RelativeToolTip": "MedApp\\Application\\Appoinments\\Documents\\IPdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T21:24:17.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "MedApp\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "MedApp\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAQwKYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T01:27:55.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LookupsController.cs",
+              "DocumentMoniker": "D:\\Project\\MedApp\\api\\MedApp\\Controllers\\LookupsController.cs",
+              "RelativeDocumentMoniker": "MedApp\\Controllers\\LookupsController.cs",
+              "ToolTip": "D:\\Project\\MedApp\\api\\MedApp\\Controllers\\LookupsController.cs",
+              "RelativeToolTip": "MedApp\\Controllers\\LookupsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T03:02:23.431Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
