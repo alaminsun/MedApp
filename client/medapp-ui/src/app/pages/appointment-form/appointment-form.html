@@ -1,0 +1,87 @@
+<section style="padding:16px; max-width:900px; margin:auto;">
+  <h2 style="margin:0 0 12px 0">{{ id ? 'Edit Appointment' : 'New Appointment' }}</h2>
+
+  <form [formGroup]="form" (ngSubmit)="save()" class="card">
+
+    <div class="row">
+      <label>Patient <span class="req">*</span></label>
+      <select formControlName="patientId" title="Patient">
+        <option [ngValue]="null">-- Select Patient --</option>
+        <option *ngFor="let p of patients" [ngValue]="p.id">{{ p.name }}</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label>Doctor <span class="req">*</span></label>
+      <select formControlName="doctorId" aria-label="Doctor">
+        <option [ngValue]="null">-- Select Doctor --</option>
+        <option *ngFor="let d of doctors" [ngValue]="d.id">{{ d.name }}</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label>Appointment Date <span class="req">*</span></label>
+      <input type="date" formControlName="appointmentDate" title="Appointment Date" placeholder="Select date">
+    </div>
+
+    <div class="row">
+      <label>Visit Type</label>
+      <div style="display:flex; gap:16px;">
+        <label><input type="radio" formControlName="visitType" value="First"> First Visit</label>
+        <label><input type="radio" formControlName="visitType" value="FollowUp"> Follow-Up</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <label>Notes</label>
+      <input type="text" formControlName="notes" placeholder="Free text">
+    </div>
+
+    <div class="row">
+      <label>Diagnosis</label>
+      <textarea formControlName="diagnosis" rows="3" placeholder="Diagnosis..."></textarea>
+    </div>
+
+    <h3 style="margin:16px 0 8px;">Prescriptions</h3>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th style="width:220px;">Medicine</th>
+          <th>Dosage</th>
+          <th style="width:150px;">Start</th>
+          <th style="width:150px;">End</th>
+          <th>Notes</th>
+          <th style="width:60px;"></th>
+        </tr>
+      </thead>
+      <tbody formArrayName="prescriptions">
+        <tr *ngFor="let g of prescriptions.controls; let i = index" [formGroupName]="i">
+          <td>
+            <select formControlName="medicineId" title="Medicine">
+              <option [ngValue]="null">-- select --</option>
+              <option *ngFor="let m of medicines" [ngValue]="m.id">{{ m.name }}</option>
+            </select>
+          </td>
+          <td><input type="text" formControlName="dosage" title="Dosage" placeholder="Dosage"></td>
+          <td><input type="date" formControlName="startDate" title="Start Date" placeholder="Start date"></td>
+          <td><input type="date" formControlName="endDate" title="End Date" placeholder="End date"></td>
+          <td><input type="text" formControlName="notes" title="Prescription Notes" placeholder="Notes"></td>
+          <td><button type="button" (click)="removeRx(i)">🗑</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top:8px;">
+      <button type="button" (click)="addRx()">+ Add medicine</button>
+    </div>
+
+    <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:16px;">
+      <button type="button" (click)="cancel()">Cancel</button>
+      <button type="submit">Save</button>
+    </div>
+  </form>
+</section>
+
+
+

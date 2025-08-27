@@ -1,0 +1,95 @@
+<div class="container-fluid px-3 py-2">
+    <!-- <div class="d-flex gap-2 align-items-center flex-wrap mb-3"> -->
+    <div style="display:flex; gap:8px; align-items-center; margin-bottom:12px;">
+      <input class="form-control" style="max-width: 380px" [formControl]="searchCtrl" placeholder="Search patient or doctor" />
+      <label for="doctor-select" class="visually-hidden">Filter by doctor</label>
+      <select id="doctor-select" class="form-select max-width-220" [(ngModel)]="doctorId" title="Filter by doctor">
+        <option [ngValue]="null">All Doctors</option>
+        <option *ngFor="let d of doctors" [ngValue]="d.id">{{ d.name }}</option>
+      </select>
+      <select class="form-select max-width-180" [(ngModel)]="visitType" title="Filter by visit type">
+        <option value="">All Visits</option>
+        <option value="First">First</option>
+        <option value="FollowUp">FollowUp</option>
+      </select>
+      <button class="btn btn-outline-primary" (click)="applyFilters()">Search</button>
+      <button class="btn btn-outline-secondary" (click)="reset()">Reset</button>
+
+      <div class="ms-auto d-flex align-items-center gap-2">
+        <label class="text-muted">Page size</label>
+        <select class="form-select page-size-select" title="Select page size" [(ngModel)]="pageSize" (change)="goto(1)">
+          <option [ngValue]="10">10</option>
+          <option [ngValue]="25">25</option>
+          <option [ngValue]="50">50</option>
+        </select>
+      </div>
+    <a routerLink="/appointments/new" style="margin-left:auto"><button>+ New</button></a>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table align-middle">
+        <thead>
+          <tr>
+            <th scope="col" class="col-1">ID</th>
+            <th scope="col" class="sortable" (click)="sortBy('patient')">
+              Patient <span class="sort" [class.active]="sort==='patient'">{{ dir==='asc' && sort==='patient' ? '▲' : (sort==='patient' ? '▼' : '') }}</span>
+            </th>
+            <th scope="col" class="sortable" (click)="sortBy('doctor')">
+              Doctor <span class="sort" [class.active]="sort==='doctor'">{{ dir==='asc' && sort==='doctor' ? '▲' : (sort==='doctor' ? '▼' : '') }}</span>
+            </th>
+            <th scope="col" class="sortable" (click)="sortBy('appointmentDate')">
+              Date <span class="sort" [class.active]="sort==='appointmentDate'">{{ dir==='asc' && sort==='appointmentDate' ? '▲' : (sort==='appointmentDate' ? '▼' : '') }}</span>
+            </th>
+            <th scope="col" class="sortable" (click)="sortBy('visitType')">
+              Visit <span class="sort" [class.active]="sort==='visitType'">{{ dir==='asc' && sort==='visitType' ? '▲' : (sort==='visitType' ? '▼' : '') }}</span>
+            </th>
+            <th scope="col">Diagnosis</th>
+            <th scope="col" class="text-end">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let a of result()?.items">
+            <th scope="row">{{ a.id }}</th>
+            <td>{{ a.patient }}</td>
+            <td>{{ a.doctor }}</td>
+            <td>{{ a.date | date:'MMM d, y' }}</td>
+            <td>
+              <span class="badge" [class.bg-primary]="a.visitType==='First'" [class.bg-warning]="a.visitType==='FollowUp'">
+                {{ a.visitType }}
+              </span>
+            </td>
+            <td><span class="text-truncate d-inline-block" style="max-width: 320px" [title]="a.diagnosis || ''">{{ a.diagnosis }}</span></td>
+            <td class="text-end">
+              <button class="btn btn-sm btn-outline-secondary me-1" (click)="openEmail(a.id)">Email</button>
+              <button class="btn btn-sm btn-outline-secondary me-1" aria-label="Edit appointment {{a.id}}" [routerLink]="['/appointments', a.id]">Edit</button>
+               <!-- <a [routerLink]="['/appointments', a.id]"><button>Edit</button></a> -->
+              <button class="btn btn-sm btn-outline-dark me-1" aria-label="Download PDF for appointment {{a.id}}" (click)="downloadPdf(a.id)">PDF</button>
+              <button class="btn btn-sm btn-outline-danger" aria-label="Delete appointment {{a.id}}" (click)="remove(a.id)">Delete</button>
+            </td>
+          </tr>
+          <tr *ngIf="!loading() && (result()?.items?.length ?? 0) === 0">
+            <td colspan="7" class="text-center text-muted py-4">No appointments match your filters.</td>
+          </tr>
+          <tr *ngIf="loading()">
+            <td colspan="7" class="text-center py-4">Loading…</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-2">
+      <div class="text-muted small">
+        {{ result()?.total || 0 }} result(s)
+        · page {{ pageNumber }} of {{ totalPages }}
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-outline-secondary" (click)="goto(1)" [disabled]="pageNumber===1">«</button>
+        <button class="btn btn-outline-secondary" (click)="goto(pageNumber-1)" [disabled]="pageNumber===1">‹</button>
+        <button class="btn btn-outline-secondary disabled"> {{ pageNumber }} </button>
+        <button class="btn btn-outline-secondary" (click)="goto(pageNumber+1)" [disabled]="pageNumber===totalPages">›</button>
+        <button class="btn btn-outline-secondary" (click)="goto(totalPages)" [disabled]="pageNumber===totalPages">»</button>
+      </div>
+    </div>
+  </div>
+

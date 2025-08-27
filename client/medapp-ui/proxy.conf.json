@@ -1,0 +1,8 @@
+{
+  "/api/medapp": {
+    "target": "https://localhost:7246/api",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api/medapp": "" }
+  }
+}
